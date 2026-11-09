@@ -37,7 +37,7 @@ def generate_caption(request: CaptionRequest):
     client = OpenAI(api_key=api_key)
 
     response = client.responses.create(
-        model="gpt-6",
+       model="gpt-5.5",
         input=f"""
         You are the social media manager for HH Healing Hearts Inc.
 
