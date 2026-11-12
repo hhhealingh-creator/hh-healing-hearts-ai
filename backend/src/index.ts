@@ -26,6 +26,29 @@ app.get('/api/health', (req, res) => {
     });
 });
 
+import { pool } from './db.js';
+
+app.get('/api/database', async (req, res) => {
+    try {
+        const result = await pool.query(
+            'SELECT NOW() AS current_time'
+        );
+
+        res.json({
+            success: true,
+            message: 'Supabase database connected!',
+            data: result.rows[0],
+        });
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            success: false,
+            message: 'Database connection failed',
+        });
+    }
+});
+
 const PORT = Number(process.env.PORT) || 5000;
 
 app.listen(PORT, () => {
