@@ -26,7 +26,7 @@ app.get('/api/health', (req, res) => {
     });
 });
 
-const PORT = Number(process.env.PORT) || 4000;
+const PORT = Number(process.env.PORT) || 5000;
 
 app.listen(PORT, () => {
     console.log(`Healing Hearts AI server running on http://localhost:${PORT}`);
