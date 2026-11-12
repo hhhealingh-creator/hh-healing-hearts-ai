@@ -1,4 +1,3 @@
-
 import { Pool } from 'pg';
 import 'dotenv/config';
 
@@ -7,12 +6,9 @@ export const pool = new Pool({
     ssl: {
         rejectUnauthorized: false,
     },
-});
-
-pool.on('connect', () => {
-    console.log('Connected to Supabase PostgreSQL');
+    connectionTimeoutMillis: 10000,
 });
 
 pool.on('error', (error) => {
-    console.error('Database error:', error);
+    console.error('PostgreSQL error:', error.message);
 });
