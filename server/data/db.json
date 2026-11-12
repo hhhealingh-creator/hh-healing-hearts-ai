@@ -1,0 +1,1747 @@
+{
+  "accounts": [
+    {
+      "id": "acct_fb",
+      "platform": "facebook",
+      "name": "HH Healing Hearts Inc.",
+      "handle": "@hhhealinghearts",
+      "status": "connected",
+      "followers": 12790,
+      "lastSyncedAt": "2026-11-11T06:00:06.508Z",
+      "publishingEnabled": true
+    },
+    {
+      "id": "acct_ig",
+      "platform": "instagram",
+      "name": "HH Healing Hearts Inc.",
+      "handle": "@hhhealinghearts",
+      "status": "connected",
+      "followers": 6530,
+      "lastSyncedAt": "2026-11-11T06:00:06.508Z",
+      "publishingEnabled": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "content": "Healing is not linear — and neither is hope. Today, take one gentle step toward the support you deserve. 💚\n\n#HealingHearts #RestoringHope",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "published",
+      "publishedAt": "2026-11-10T09:00:06.508Z",
+      "createdAt": "2026-11-09T14:00:06.508Z",
+      "createdBy": "Content Creator Agent",
+      "metrics": {
+        "impressions": 4820,
+        "reach": 3710,
+        "likes": 286,
+        "comments": 34,
+        "shares": 41
+      }
+    },
+    {
+      "id": "post_2",
+      "content": "Join us this Saturday for our Community Hope Circle — a safe space for conversation, connection and care. Light refreshments provided. Register at the link in our bio. 🕊️",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "scheduled",
+      "scheduledFor": "2026-11-14T10:00:06.508Z",
+      "createdAt": "2026-11-11T11:00:06.508Z",
+      "createdBy": "Jordan (Admin)"
+    },
+    {
+      "id": "post_3",
+      "content": "Every donation helps a neighbor find counseling, community and a pathway forward. This month, your gift goes twice as far thanks to our matching partners. ❤️",
+      "platforms": [
+        "facebook"
+      ],
+      "status": "scheduled",
+      "scheduledFor": "2026-11-17T15:00:06.508Z",
+      "createdAt": "2026-11-11T09:00:06.508Z",
+      "createdBy": "Jordan (Admin)"
+    },
+    {
+      "id": "post_4",
+      "content": "Meet our new counseling partner: a team of licensed clinicians offering trauma-informed care to families across our community. Full story coming soon.",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "draft",
+      "createdAt": "2026-11-12T08:00:06.508Z",
+      "createdBy": "Content Creator Agent"
+    },
+    {
+      "id": "post_5",
+      "content": "A reminder: you are not alone. If today feels heavy, reach out. Our team is here to listen without judgment. 💚",
+      "platforms": [
+        "instagram"
+      ],
+      "status": "published",
+      "publishedAt": "2026-11-07T19:00:06.508Z",
+      "createdAt": "2026-11-06T10:00:06.508Z",
+      "createdBy": "Casey (Editor)",
+      "metrics": {
+        "impressions": 3110,
+        "reach": 2480,
+        "likes": 198,
+        "comments": 22,
+        "shares": 17
+      }
+    },
+    {
+      "id": "post_6",
+      "content": "Annual beneficiary story series — consent checklist and photo releases need review before this can be scheduled.",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "needs_review",
+      "scheduledFor": "2026-11-13T12:00:06.508Z",
+      "createdAt": "2026-11-11T16:00:06.508Z",
+      "createdBy": "Content Creator Agent"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "postId": "post_1",
+      "platform": "instagram",
+      "author": "Maria G.",
+      "message": "This is beautiful. Thank you for all you do for our community! 💚",
+      "createdAt": "2026-11-11T12:00:06.508Z",
+      "status": "auto_replied",
+      "category": "routine",
+      "reply": "Thank you for your kind words! 💚 If you would like to learn more about our programs, send us a DM and our team will be happy to help."
+    },
+    {
+      "id": "c2",
+      "postId": "post_1",
+      "platform": "facebook",
+      "author": "Darnell W.",
+      "message": "Does your program help with medication-assisted treatment? My brother needs advice.",
+      "createdAt": "2026-11-11T13:00:06.508Z",
+      "status": "escalated",
+      "category": "medical",
+      "assignedTo": "Human administrator"
+    },
+    {
+      "id": "c3",
+      "postId": "post_5",
+      "platform": "instagram",
+      "author": "Priya S.",
+      "message": "How can I donate by check? I would like to support the counseling fund.",
+      "createdAt": "2026-11-11T15:00:06.508Z",
+      "status": "escalated",
+      "category": "donation",
+      "assignedTo": "Human administrator"
+    },
+    {
+      "id": "c4",
+      "postId": "post_1",
+      "platform": "facebook",
+      "author": "Angela R.",
+      "message": "I called three times and no one responded. Very disappointed with the follow-up.",
+      "createdAt": "2026-11-10T10:00:06.508Z",
+      "status": "escalated",
+      "category": "complaint",
+      "assignedTo": "Human administrator"
+    },
+    {
+      "id": "c5",
+      "postId": "post_5",
+      "platform": "instagram",
+      "author": "Tyler B.",
+      "message": "Can you share the name of the family in your last post? I think I know them.",
+      "createdAt": "2026-11-10T16:00:06.508Z",
+      "status": "escalated",
+      "category": "beneficiary",
+      "assignedTo": "Human administrator"
+    },
+    {
+      "id": "c6",
+      "postId": "post_1",
+      "platform": "instagram",
+      "author": "Nia K.",
+      "message": "Thank you for creating spaces where people feel seen. Sending love.",
+      "createdAt": "2026-11-09T08:00:06.508Z",
+      "status": "auto_replied",
+      "category": "routine",
+      "reply": "Thank you for your kind words! 💚 If you would like to learn more about our programs, send us a DM and our team will be happy to help."
+    },
+    {
+      "id": "c7",
+      "postId": "post_1",
+      "platform": "facebook",
+      "author": "Chris M.",
+      "message": "I've been having dark thoughts and don't know who to call.",
+      "createdAt": "2026-11-11T21:00:06.508Z",
+      "status": "escalated",
+      "category": "sensitive",
+      "assignedTo": "Human administrator"
+    }
+  ],
+  "agents": [
+    {
+      "id": "content",
+      "name": "Content Creator Agent",
+      "description": "Drafts on-brand posts, captions and campaign ideas for human review.",
+      "enabled": true,
+      "mode": "human_review",
+      "lastRunAt": "2026-11-12T08:00:06.508Z",
+      "tasksToday": 4,
+      "successRate": 98
+    },
+    {
+      "id": "publishing",
+      "name": "Automatic Publishing Agent",
+      "description": "Publishes approved scheduled posts to connected Facebook and Instagram accounts.",
+      "enabled": true,
+      "mode": "auto",
+      "lastRunAt": "2026-11-11T10:00:06.508Z",
+      "tasksToday": 2,
+      "successRate": 100
+    },
+    {
+      "id": "engagement",
+      "name": "Engagement & Comment Agent",
+      "description": "Replies to routine comments and escalates sensitive conversations to a human.",
+      "enabled": true,
+      "mode": "auto",
+      "lastRunAt": "2026-11-12T15:20:38.394Z",
+      "tasksToday": 15,
+      "successRate": 96
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics & Reporting Agent",
+      "description": "Refreshes performance metrics, follower growth and campaign reporting.",
+      "enabled": true,
+      "mode": "auto",
+      "lastRunAt": "2026-11-12T07:00:06.508Z",
+      "tasksToday": 1,
+      "successRate": 100
+    }
+  ],
+  "activity": [
+    {
+      "id": "act_0bfedd9c-38bb-4f0c-8a0e-91de60f6b4a3",
+      "at": "2026-11-12T15:20:38.395Z",
+      "actor": "Automation",
+      "role": "admin",
+      "action": "Automated action",
+      "target": "Auto-replied to Maria G. on instagram."
+    },
+    {
+      "id": "act_e1a6454c-bbfb-41e6-af5d-3c11300e2d00",
+      "at": "2026-11-12T07:26:20.275Z",
+      "actor": "Automation",
+      "role": "admin",
+      "action": "Automated action",
+      "target": "Escalated Priya S. (donation) to a human administrator."
+    },
+    {
+      "id": "act_47732dd5-08e3-40cd-a366-bc7fc6260140",
+      "at": "2026-11-12T07:26:20.275Z",
+      "actor": "Automation",
+      "role": "admin",
+      "action": "Automated action",
+      "target": "Escalated Darnell W. (medical) to a human administrator."
+    },
+    {
+      "id": "act_1",
+      "at": "2026-11-11T18:00:06.508Z",
+      "actor": "Engagement & Comment Agent",
+      "role": "admin",
+      "action": "Escalated comment",
+      "target": "Chris M. — sensitive language detected"
+    },
+    {
+      "id": "act_2",
+      "at": "2026-11-11T10:00:06.508Z",
+      "actor": "Automatic Publishing Agent",
+      "role": "admin",
+      "action": "Published post",
+      "target": "Healing is not linear — and neither is hope."
+    },
+    {
+      "id": "act_3",
+      "at": "2026-11-10T16:00:06.508Z",
+      "actor": "Jordan (Admin)",
+      "role": "admin",
+      "action": "Updated agent",
+      "target": "Publishing agent set to automatic"
+    },
+    {
+      "id": "act_4",
+      "at": "2026-11-09T14:00:06.508Z",
+      "actor": "Content Creator Agent",
+      "role": "admin",
+      "action": "Created draft",
+      "target": "Healing is not linear — and neither is hope."
+    }
+  ],
+  "settings": {
+    "orgName": "HH Healing Hearts Inc.",
+    "timezone": "America/New_York",
+    "autoPublish": true,
+    "autoReply": true,
+    "quietHoursStart": "21:00",
+    "quietHoursEnd": "07:00",
+    "escalationEmail": "admin@hhhealinghearts.org",
+    "credentials": {
+      "metaAppId": "109384756201",
+      "metaAppSecretMasked": "••••••••3f7a",
+      "pageTokenMasked": "••••••••b92c"
+    }
+  },
+  "system": {
+    "emergencyStop": false
+  },
+  "metrics": [
+    {
+      "date": "2026-08-15",
+      "platform": "facebook",
+      "impressions": 1948,
+      "reach": 1403,
+      "engagement": 101,
+      "followers": 11811
+    },
+    {
+      "date": "2026-08-15",
+      "platform": "instagram",
+      "impressions": 1384,
+      "reach": 941,
+      "engagement": 89,
+      "followers": 5907
+    },
+    {
+      "date": "2026-08-16",
+      "platform": "facebook",
+      "impressions": 2002,
+      "reach": 1442,
+      "engagement": 104,
+      "followers": 11822
+    },
+    {
+      "date": "2026-08-16",
+      "platform": "instagram",
+      "impressions": 1375,
+      "reach": 935,
+      "engagement": 88,
+      "followers": 5914
+    },
+    {
+      "date": "2026-08-17",
+      "platform": "facebook",
+      "impressions": 2050,
+      "reach": 1476,
+      "engagement": 107,
+      "followers": 11833
+    },
+    {
+      "date": "2026-08-17",
+      "platform": "instagram",
+      "impressions": 1370,
+      "reach": 931,
+      "engagement": 88,
+      "followers": 5921
+    },
+    {
+      "date": "2026-08-18",
+      "platform": "facebook",
+      "impressions": 2089,
+      "reach": 1504,
+      "engagement": 109,
+      "followers": 11844
+    },
+    {
+      "date": "2026-08-18",
+      "platform": "instagram",
+      "impressions": 1368,
+      "reach": 931,
+      "engagement": 88,
+      "followers": 5928
+    },
+    {
+      "date": "2026-08-19",
+      "platform": "facebook",
+      "impressions": 2117,
+      "reach": 1524,
+      "engagement": 110,
+      "followers": 11855
+    },
+    {
+      "date": "2026-08-19",
+      "platform": "instagram",
+      "impressions": 1372,
+      "reach": 933,
+      "engagement": 88,
+      "followers": 5935
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "facebook",
+      "impressions": 2134,
+      "reach": 1537,
+      "engagement": 111,
+      "followers": 11866
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "instagram",
+      "impressions": 1382,
+      "reach": 940,
+      "engagement": 88,
+      "followers": 5942
+    },
+    {
+      "date": "2026-08-21",
+      "platform": "facebook",
+      "impressions": 2139,
+      "reach": 1540,
+      "engagement": 111,
+      "followers": 11877
+    },
+    {
+      "date": "2026-08-21",
+      "platform": "instagram",
+      "impressions": 1398,
+      "reach": 950,
+      "engagement": 89,
+      "followers": 5949
+    },
+    {
+      "date": "2026-08-22",
+      "platform": "facebook",
+      "impressions": 2132,
+      "reach": 1535,
+      "engagement": 111,
+      "followers": 11888
+    },
+    {
+      "date": "2026-08-22",
+      "platform": "instagram",
+      "impressions": 1419,
+      "reach": 965,
+      "engagement": 91,
+      "followers": 5956
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "facebook",
+      "impressions": 2115,
+      "reach": 1523,
+      "engagement": 110,
+      "followers": 11899
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "instagram",
+      "impressions": 1446,
+      "reach": 984,
+      "engagement": 93,
+      "followers": 5963
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "facebook",
+      "impressions": 2088,
+      "reach": 1503,
+      "engagement": 109,
+      "followers": 11910
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "instagram",
+      "impressions": 1478,
+      "reach": 1005,
+      "engagement": 95,
+      "followers": 5970
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "facebook",
+      "impressions": 2053,
+      "reach": 1478,
+      "engagement": 107,
+      "followers": 11921
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "instagram",
+      "impressions": 1513,
+      "reach": 1029,
+      "engagement": 97,
+      "followers": 5977
+    },
+    {
+      "date": "2026-08-26",
+      "platform": "facebook",
+      "impressions": 2015,
+      "reach": 1450,
+      "engagement": 105,
+      "followers": 11932
+    },
+    {
+      "date": "2026-08-26",
+      "platform": "instagram",
+      "impressions": 1551,
+      "reach": 1055,
+      "engagement": 99,
+      "followers": 5984
+    },
+    {
+      "date": "2026-08-27",
+      "platform": "facebook",
+      "impressions": 1974,
+      "reach": 1421,
+      "engagement": 103,
+      "followers": 11943
+    },
+    {
+      "date": "2026-08-27",
+      "platform": "instagram",
+      "impressions": 1590,
+      "reach": 1081,
+      "engagement": 102,
+      "followers": 5991
+    },
+    {
+      "date": "2026-08-28",
+      "platform": "facebook",
+      "impressions": 1934,
+      "reach": 1393,
+      "engagement": 101,
+      "followers": 11954
+    },
+    {
+      "date": "2026-08-28",
+      "platform": "instagram",
+      "impressions": 1628,
+      "reach": 1107,
+      "engagement": 104,
+      "followers": 5998
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "facebook",
+      "impressions": 1899,
+      "reach": 1367,
+      "engagement": 99,
+      "followers": 11965
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "instagram",
+      "impressions": 1664,
+      "reach": 1131,
+      "engagement": 106,
+      "followers": 6005
+    },
+    {
+      "date": "2026-08-30",
+      "platform": "facebook",
+      "impressions": 1869,
+      "reach": 1346,
+      "engagement": 97,
+      "followers": 11976
+    },
+    {
+      "date": "2026-08-30",
+      "platform": "instagram",
+      "impressions": 1697,
+      "reach": 1154,
+      "engagement": 109,
+      "followers": 6012
+    },
+    {
+      "date": "2026-08-31",
+      "platform": "facebook",
+      "impressions": 1849,
+      "reach": 1331,
+      "engagement": 96,
+      "followers": 11987
+    },
+    {
+      "date": "2026-08-31",
+      "platform": "instagram",
+      "impressions": 1725,
+      "reach": 1173,
+      "engagement": 110,
+      "followers": 6019
+    },
+    {
+      "date": "2026-09-01",
+      "platform": "facebook",
+      "impressions": 1839,
+      "reach": 1324,
+      "engagement": 96,
+      "followers": 11998
+    },
+    {
+      "date": "2026-09-01",
+      "platform": "instagram",
+      "impressions": 1748,
+      "reach": 1189,
+      "engagement": 112,
+      "followers": 6026
+    },
+    {
+      "date": "2026-09-02",
+      "platform": "facebook",
+      "impressions": 1840,
+      "reach": 1325,
+      "engagement": 96,
+      "followers": 12009
+    },
+    {
+      "date": "2026-09-02",
+      "platform": "instagram",
+      "impressions": 1766,
+      "reach": 1201,
+      "engagement": 113,
+      "followers": 6033
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "facebook",
+      "impressions": 1853,
+      "reach": 1334,
+      "engagement": 96,
+      "followers": 12020
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "instagram",
+      "impressions": 1778,
+      "reach": 1209,
+      "engagement": 114,
+      "followers": 6040
+    },
+    {
+      "date": "2026-09-04",
+      "platform": "facebook",
+      "impressions": 1877,
+      "reach": 1352,
+      "engagement": 98,
+      "followers": 12031
+    },
+    {
+      "date": "2026-09-04",
+      "platform": "instagram",
+      "impressions": 1784,
+      "reach": 1213,
+      "engagement": 114,
+      "followers": 6047
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "facebook",
+      "impressions": 1912,
+      "reach": 1377,
+      "engagement": 99,
+      "followers": 12042
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "instagram",
+      "impressions": 1784,
+      "reach": 1213,
+      "engagement": 114,
+      "followers": 6054
+    },
+    {
+      "date": "2026-09-06",
+      "platform": "facebook",
+      "impressions": 1956,
+      "reach": 1408,
+      "engagement": 102,
+      "followers": 12053
+    },
+    {
+      "date": "2026-09-06",
+      "platform": "instagram",
+      "impressions": 1781,
+      "reach": 1211,
+      "engagement": 114,
+      "followers": 6061
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "facebook",
+      "impressions": 2006,
+      "reach": 1444,
+      "engagement": 104,
+      "followers": 12064
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "instagram",
+      "impressions": 1774,
+      "reach": 1206,
+      "engagement": 114,
+      "followers": 6068
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "facebook",
+      "impressions": 2060,
+      "reach": 1483,
+      "engagement": 107,
+      "followers": 12075
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "instagram",
+      "impressions": 1765,
+      "reach": 1200,
+      "engagement": 113,
+      "followers": 6075
+    },
+    {
+      "date": "2026-09-09",
+      "platform": "facebook",
+      "impressions": 2116,
+      "reach": 1523,
+      "engagement": 110,
+      "followers": 12086
+    },
+    {
+      "date": "2026-09-09",
+      "platform": "instagram",
+      "impressions": 1755,
+      "reach": 1194,
+      "engagement": 112,
+      "followers": 6082
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "facebook",
+      "impressions": 2170,
+      "reach": 1562,
+      "engagement": 113,
+      "followers": 12097
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "instagram",
+      "impressions": 1746,
+      "reach": 1188,
+      "engagement": 112,
+      "followers": 6089
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "facebook",
+      "impressions": 2220,
+      "reach": 1599,
+      "engagement": 115,
+      "followers": 12108
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "instagram",
+      "impressions": 1739,
+      "reach": 1183,
+      "engagement": 111,
+      "followers": 6096
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "facebook",
+      "impressions": 2264,
+      "reach": 1630,
+      "engagement": 118,
+      "followers": 12119
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "instagram",
+      "impressions": 1736,
+      "reach": 1180,
+      "engagement": 111,
+      "followers": 6103
+    },
+    {
+      "date": "2026-09-13",
+      "platform": "facebook",
+      "impressions": 2300,
+      "reach": 1656,
+      "engagement": 120,
+      "followers": 12130
+    },
+    {
+      "date": "2026-09-13",
+      "platform": "instagram",
+      "impressions": 1736,
+      "reach": 1180,
+      "engagement": 111,
+      "followers": 6110
+    },
+    {
+      "date": "2026-09-14",
+      "platform": "facebook",
+      "impressions": 2327,
+      "reach": 1676,
+      "engagement": 121,
+      "followers": 12141
+    },
+    {
+      "date": "2026-09-14",
+      "platform": "instagram",
+      "impressions": 1741,
+      "reach": 1184,
+      "engagement": 111,
+      "followers": 6117
+    },
+    {
+      "date": "2026-09-15",
+      "platform": "facebook",
+      "impressions": 2344,
+      "reach": 1687,
+      "engagement": 122,
+      "followers": 12152
+    },
+    {
+      "date": "2026-09-15",
+      "platform": "instagram",
+      "impressions": 1751,
+      "reach": 1190,
+      "engagement": 112,
+      "followers": 6124
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "facebook",
+      "impressions": 2350,
+      "reach": 1692,
+      "engagement": 122,
+      "followers": 12163
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "instagram",
+      "impressions": 1766,
+      "reach": 1201,
+      "engagement": 113,
+      "followers": 6131
+    },
+    {
+      "date": "2026-09-17",
+      "platform": "facebook",
+      "impressions": 2347,
+      "reach": 1690,
+      "engagement": 122,
+      "followers": 12174
+    },
+    {
+      "date": "2026-09-17",
+      "platform": "instagram",
+      "impressions": 1785,
+      "reach": 1214,
+      "engagement": 114,
+      "followers": 6138
+    },
+    {
+      "date": "2026-09-18",
+      "platform": "facebook",
+      "impressions": 2336,
+      "reach": 1682,
+      "engagement": 121,
+      "followers": 12185
+    },
+    {
+      "date": "2026-09-18",
+      "platform": "instagram",
+      "impressions": 1809,
+      "reach": 1230,
+      "engagement": 116,
+      "followers": 6145
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "facebook",
+      "impressions": 2319,
+      "reach": 1670,
+      "engagement": 121,
+      "followers": 12196
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "instagram",
+      "impressions": 1836,
+      "reach": 1248,
+      "engagement": 117,
+      "followers": 6152
+    },
+    {
+      "date": "2026-09-20",
+      "platform": "facebook",
+      "impressions": 2298,
+      "reach": 1655,
+      "engagement": 120,
+      "followers": 12207
+    },
+    {
+      "date": "2026-09-20",
+      "platform": "instagram",
+      "impressions": 1864,
+      "reach": 1268,
+      "engagement": 119,
+      "followers": 6159
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "facebook",
+      "impressions": 2276,
+      "reach": 1639,
+      "engagement": 118,
+      "followers": 12218
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "instagram",
+      "impressions": 1894,
+      "reach": 1288,
+      "engagement": 121,
+      "followers": 6166
+    },
+    {
+      "date": "2026-09-22",
+      "platform": "facebook",
+      "impressions": 2255,
+      "reach": 1624,
+      "engagement": 117,
+      "followers": 12229
+    },
+    {
+      "date": "2026-09-22",
+      "platform": "instagram",
+      "impressions": 1922,
+      "reach": 1307,
+      "engagement": 123,
+      "followers": 6173
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "facebook",
+      "impressions": 2238,
+      "reach": 1612,
+      "engagement": 116,
+      "followers": 12240
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "instagram",
+      "impressions": 1949,
+      "reach": 1325,
+      "engagement": 125,
+      "followers": 6180
+    },
+    {
+      "date": "2026-09-24",
+      "platform": "facebook",
+      "impressions": 2228,
+      "reach": 1604,
+      "engagement": 116,
+      "followers": 12251
+    },
+    {
+      "date": "2026-09-24",
+      "platform": "instagram",
+      "impressions": 1972,
+      "reach": 1341,
+      "engagement": 126,
+      "followers": 6187
+    },
+    {
+      "date": "2026-09-25",
+      "platform": "facebook",
+      "impressions": 2226,
+      "reach": 1602,
+      "engagement": 116,
+      "followers": 12262
+    },
+    {
+      "date": "2026-09-25",
+      "platform": "instagram",
+      "impressions": 1992,
+      "reach": 1354,
+      "engagement": 127,
+      "followers": 6194
+    },
+    {
+      "date": "2026-09-26",
+      "platform": "facebook",
+      "impressions": 2233,
+      "reach": 1608,
+      "engagement": 116,
+      "followers": 12273
+    },
+    {
+      "date": "2026-09-26",
+      "platform": "instagram",
+      "impressions": 2006,
+      "reach": 1364,
+      "engagement": 128,
+      "followers": 6201
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "facebook",
+      "impressions": 2252,
+      "reach": 1621,
+      "engagement": 117,
+      "followers": 12284
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "instagram",
+      "impressions": 2015,
+      "reach": 1370,
+      "engagement": 129,
+      "followers": 6208
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "facebook",
+      "impressions": 2281,
+      "reach": 1643,
+      "engagement": 119,
+      "followers": 12295
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "instagram",
+      "impressions": 2018,
+      "reach": 1372,
+      "engagement": 129,
+      "followers": 6215
+    },
+    {
+      "date": "2026-09-29",
+      "platform": "facebook",
+      "impressions": 2321,
+      "reach": 1671,
+      "engagement": 121,
+      "followers": 12306
+    },
+    {
+      "date": "2026-09-29",
+      "platform": "instagram",
+      "impressions": 2017,
+      "reach": 1371,
+      "engagement": 129,
+      "followers": 6222
+    },
+    {
+      "date": "2026-09-30",
+      "platform": "facebook",
+      "impressions": 2371,
+      "reach": 1707,
+      "engagement": 123,
+      "followers": 12317
+    },
+    {
+      "date": "2026-09-30",
+      "platform": "instagram",
+      "impressions": 2010,
+      "reach": 1367,
+      "engagement": 129,
+      "followers": 6229
+    },
+    {
+      "date": "2026-10-01",
+      "platform": "facebook",
+      "impressions": 2428,
+      "reach": 1748,
+      "engagement": 126,
+      "followers": 12328
+    },
+    {
+      "date": "2026-10-01",
+      "platform": "instagram",
+      "impressions": 2000,
+      "reach": 1360,
+      "engagement": 128,
+      "followers": 6236
+    },
+    {
+      "date": "2026-10-02",
+      "platform": "facebook",
+      "impressions": 2490,
+      "reach": 1793,
+      "engagement": 129,
+      "followers": 12339
+    },
+    {
+      "date": "2026-10-02",
+      "platform": "instagram",
+      "impressions": 1987,
+      "reach": 1351,
+      "engagement": 127,
+      "followers": 6243
+    },
+    {
+      "date": "2026-10-03",
+      "platform": "facebook",
+      "impressions": 2555,
+      "reach": 1840,
+      "engagement": 133,
+      "followers": 12350
+    },
+    {
+      "date": "2026-10-03",
+      "platform": "instagram",
+      "impressions": 1972,
+      "reach": 1341,
+      "engagement": 126,
+      "followers": 6250
+    },
+    {
+      "date": "2026-10-04",
+      "platform": "facebook",
+      "impressions": 2620,
+      "reach": 1887,
+      "engagement": 136,
+      "followers": 12361
+    },
+    {
+      "date": "2026-10-04",
+      "platform": "instagram",
+      "impressions": 1958,
+      "reach": 1331,
+      "engagement": 125,
+      "followers": 6257
+    },
+    {
+      "date": "2026-10-05",
+      "platform": "facebook",
+      "impressions": 2682,
+      "reach": 1931,
+      "engagement": 139,
+      "followers": 12372
+    },
+    {
+      "date": "2026-10-05",
+      "platform": "instagram",
+      "impressions": 1945,
+      "reach": 1323,
+      "engagement": 124,
+      "followers": 6264
+    },
+    {
+      "date": "2026-10-06",
+      "platform": "facebook",
+      "impressions": 2739,
+      "reach": 1972,
+      "engagement": 142,
+      "followers": 12383
+    },
+    {
+      "date": "2026-10-06",
+      "platform": "instagram",
+      "impressions": 1935,
+      "reach": 1316,
+      "engagement": 124,
+      "followers": 6271
+    },
+    {
+      "date": "2026-10-07",
+      "platform": "facebook",
+      "impressions": 2787,
+      "reach": 2007,
+      "engagement": 145,
+      "followers": 12394
+    },
+    {
+      "date": "2026-10-07",
+      "platform": "instagram",
+      "impressions": 1929,
+      "reach": 1312,
+      "engagement": 123,
+      "followers": 6278
+    },
+    {
+      "date": "2026-10-08",
+      "platform": "facebook",
+      "impressions": 2825,
+      "reach": 2034,
+      "engagement": 147,
+      "followers": 12405
+    },
+    {
+      "date": "2026-10-08",
+      "platform": "instagram",
+      "impressions": 1928,
+      "reach": 1311,
+      "engagement": 123,
+      "followers": 6285
+    },
+    {
+      "date": "2026-10-09",
+      "platform": "facebook",
+      "impressions": 2852,
+      "reach": 2054,
+      "engagement": 148,
+      "followers": 12416
+    },
+    {
+      "date": "2026-10-09",
+      "platform": "instagram",
+      "impressions": 1933,
+      "reach": 1315,
+      "engagement": 124,
+      "followers": 6292
+    },
+    {
+      "date": "2026-10-10",
+      "platform": "facebook",
+      "impressions": 2867,
+      "reach": 2064,
+      "engagement": 149,
+      "followers": 12427
+    },
+    {
+      "date": "2026-10-10",
+      "platform": "instagram",
+      "impressions": 1944,
+      "reach": 1322,
+      "engagement": 124,
+      "followers": 6299
+    },
+    {
+      "date": "2026-10-11",
+      "platform": "facebook",
+      "impressions": 2869,
+      "reach": 2066,
+      "engagement": 149,
+      "followers": 12438
+    },
+    {
+      "date": "2026-10-11",
+      "platform": "instagram",
+      "impressions": 1961,
+      "reach": 1334,
+      "engagement": 126,
+      "followers": 6306
+    },
+    {
+      "date": "2026-10-12",
+      "platform": "facebook",
+      "impressions": 2860,
+      "reach": 2059,
+      "engagement": 149,
+      "followers": 12449
+    },
+    {
+      "date": "2026-10-12",
+      "platform": "instagram",
+      "impressions": 1984,
+      "reach": 1349,
+      "engagement": 127,
+      "followers": 6313
+    },
+    {
+      "date": "2026-10-13",
+      "platform": "facebook",
+      "impressions": 2841,
+      "reach": 2045,
+      "engagement": 148,
+      "followers": 12460
+    },
+    {
+      "date": "2026-10-13",
+      "platform": "instagram",
+      "impressions": 2012,
+      "reach": 1368,
+      "engagement": 129,
+      "followers": 6320
+    },
+    {
+      "date": "2026-10-14",
+      "platform": "facebook",
+      "impressions": 2813,
+      "reach": 2025,
+      "engagement": 146,
+      "followers": 12471
+    },
+    {
+      "date": "2026-10-14",
+      "platform": "instagram",
+      "impressions": 2044,
+      "reach": 1390,
+      "engagement": 131,
+      "followers": 6327
+    },
+    {
+      "date": "2026-10-15",
+      "platform": "facebook",
+      "impressions": 2779,
+      "reach": 2001,
+      "engagement": 145,
+      "followers": 12482
+    },
+    {
+      "date": "2026-10-15",
+      "platform": "instagram",
+      "impressions": 2079,
+      "reach": 1414,
+      "engagement": 133,
+      "followers": 6334
+    },
+    {
+      "date": "2026-10-16",
+      "platform": "facebook",
+      "impressions": 2742,
+      "reach": 1974,
+      "engagement": 143,
+      "followers": 12493
+    },
+    {
+      "date": "2026-10-16",
+      "platform": "instagram",
+      "impressions": 2115,
+      "reach": 1439,
+      "engagement": 135,
+      "followers": 6341
+    },
+    {
+      "date": "2026-10-17",
+      "platform": "facebook",
+      "impressions": 2705,
+      "reach": 1948,
+      "engagement": 141,
+      "followers": 12504
+    },
+    {
+      "date": "2026-10-17",
+      "platform": "instagram",
+      "impressions": 2152,
+      "reach": 1464,
+      "engagement": 138,
+      "followers": 6348
+    },
+    {
+      "date": "2026-10-18",
+      "platform": "facebook",
+      "impressions": 2670,
+      "reach": 1923,
+      "engagement": 139,
+      "followers": 12515
+    },
+    {
+      "date": "2026-10-18",
+      "platform": "instagram",
+      "impressions": 2188,
+      "reach": 1488,
+      "engagement": 140,
+      "followers": 6355
+    },
+    {
+      "date": "2026-10-19",
+      "platform": "facebook",
+      "impressions": 2641,
+      "reach": 1901,
+      "engagement": 137,
+      "followers": 12526
+    },
+    {
+      "date": "2026-10-19",
+      "platform": "instagram",
+      "impressions": 2221,
+      "reach": 1510,
+      "engagement": 142,
+      "followers": 6362
+    },
+    {
+      "date": "2026-10-20",
+      "platform": "facebook",
+      "impressions": 2618,
+      "reach": 1885,
+      "engagement": 136,
+      "followers": 12537
+    },
+    {
+      "date": "2026-10-20",
+      "platform": "instagram",
+      "impressions": 2250,
+      "reach": 1530,
+      "engagement": 144,
+      "followers": 6369
+    },
+    {
+      "date": "2026-10-21",
+      "platform": "facebook",
+      "impressions": 2605,
+      "reach": 1876,
+      "engagement": 135,
+      "followers": 12548
+    },
+    {
+      "date": "2026-10-21",
+      "platform": "instagram",
+      "impressions": 2275,
+      "reach": 1547,
+      "engagement": 146,
+      "followers": 6376
+    },
+    {
+      "date": "2026-10-22",
+      "platform": "facebook",
+      "impressions": 2603,
+      "reach": 1874,
+      "engagement": 135,
+      "followers": 12559
+    },
+    {
+      "date": "2026-10-22",
+      "platform": "instagram",
+      "impressions": 2294,
+      "reach": 1560,
+      "engagement": 147,
+      "followers": 6383
+    },
+    {
+      "date": "2026-10-23",
+      "platform": "facebook",
+      "impressions": 2611,
+      "reach": 1880,
+      "engagement": 136,
+      "followers": 12570
+    },
+    {
+      "date": "2026-10-23",
+      "platform": "instagram",
+      "impressions": 2308,
+      "reach": 1570,
+      "engagement": 148,
+      "followers": 6390
+    },
+    {
+      "date": "2026-10-24",
+      "platform": "facebook",
+      "impressions": 2630,
+      "reach": 1894,
+      "engagement": 137,
+      "followers": 12581
+    },
+    {
+      "date": "2026-10-24",
+      "platform": "instagram",
+      "impressions": 2317,
+      "reach": 1576,
+      "engagement": 148,
+      "followers": 6397
+    },
+    {
+      "date": "2026-10-25",
+      "platform": "facebook",
+      "impressions": 2660,
+      "reach": 1915,
+      "engagement": 138,
+      "followers": 12592
+    },
+    {
+      "date": "2026-10-25",
+      "platform": "instagram",
+      "impressions": 2321,
+      "reach": 1578,
+      "engagement": 149,
+      "followers": 6404
+    },
+    {
+      "date": "2026-10-26",
+      "platform": "facebook",
+      "impressions": 2698,
+      "reach": 1942,
+      "engagement": 140,
+      "followers": 12603
+    },
+    {
+      "date": "2026-10-26",
+      "platform": "instagram",
+      "impressions": 2320,
+      "reach": 1577,
+      "engagement": 148,
+      "followers": 6411
+    },
+    {
+      "date": "2026-10-27",
+      "platform": "facebook",
+      "impressions": 2742,
+      "reach": 1974,
+      "engagement": 143,
+      "followers": 12614
+    },
+    {
+      "date": "2026-10-27",
+      "platform": "instagram",
+      "impressions": 2316,
+      "reach": 1575,
+      "engagement": 148,
+      "followers": 6418
+    },
+    {
+      "date": "2026-10-28",
+      "platform": "facebook",
+      "impressions": 2791,
+      "reach": 2009,
+      "engagement": 145,
+      "followers": 12625
+    },
+    {
+      "date": "2026-10-28",
+      "platform": "instagram",
+      "impressions": 2310,
+      "reach": 1571,
+      "engagement": 148,
+      "followers": 6425
+    },
+    {
+      "date": "2026-10-29",
+      "platform": "facebook",
+      "impressions": 2841,
+      "reach": 2045,
+      "engagement": 148,
+      "followers": 12636
+    },
+    {
+      "date": "2026-10-29",
+      "platform": "instagram",
+      "impressions": 2303,
+      "reach": 1566,
+      "engagement": 147,
+      "followers": 6432
+    },
+    {
+      "date": "2026-10-30",
+      "platform": "facebook",
+      "impressions": 2890,
+      "reach": 2081,
+      "engagement": 150,
+      "followers": 12647
+    },
+    {
+      "date": "2026-10-30",
+      "platform": "instagram",
+      "impressions": 2296,
+      "reach": 1562,
+      "engagement": 147,
+      "followers": 6439
+    },
+    {
+      "date": "2026-10-31",
+      "platform": "facebook",
+      "impressions": 2936,
+      "reach": 2114,
+      "engagement": 153,
+      "followers": 12658
+    },
+    {
+      "date": "2026-10-31",
+      "platform": "instagram",
+      "impressions": 2292,
+      "reach": 1558,
+      "engagement": 147,
+      "followers": 6446
+    },
+    {
+      "date": "2026-11-01",
+      "platform": "facebook",
+      "impressions": 2975,
+      "reach": 2142,
+      "engagement": 155,
+      "followers": 12669
+    },
+    {
+      "date": "2026-11-01",
+      "platform": "instagram",
+      "impressions": 2290,
+      "reach": 1557,
+      "engagement": 147,
+      "followers": 6453
+    },
+    {
+      "date": "2026-11-02",
+      "platform": "facebook",
+      "impressions": 3007,
+      "reach": 2165,
+      "engagement": 156,
+      "followers": 12680
+    },
+    {
+      "date": "2026-11-02",
+      "platform": "instagram",
+      "impressions": 2293,
+      "reach": 1559,
+      "engagement": 147,
+      "followers": 6460
+    },
+    {
+      "date": "2026-11-03",
+      "platform": "facebook",
+      "impressions": 3029,
+      "reach": 2181,
+      "engagement": 158,
+      "followers": 12691
+    },
+    {
+      "date": "2026-11-03",
+      "platform": "instagram",
+      "impressions": 2300,
+      "reach": 1564,
+      "engagement": 147,
+      "followers": 6467
+    },
+    {
+      "date": "2026-11-04",
+      "platform": "facebook",
+      "impressions": 3042,
+      "reach": 2190,
+      "engagement": 158,
+      "followers": 12702
+    },
+    {
+      "date": "2026-11-04",
+      "platform": "instagram",
+      "impressions": 2311,
+      "reach": 1572,
+      "engagement": 148,
+      "followers": 6474
+    },
+    {
+      "date": "2026-11-05",
+      "platform": "facebook",
+      "impressions": 3044,
+      "reach": 2192,
+      "engagement": 158,
+      "followers": 12713
+    },
+    {
+      "date": "2026-11-05",
+      "platform": "instagram",
+      "impressions": 2329,
+      "reach": 1583,
+      "engagement": 149,
+      "followers": 6481
+    },
+    {
+      "date": "2026-11-06",
+      "platform": "facebook",
+      "impressions": 3037,
+      "reach": 2187,
+      "engagement": 158,
+      "followers": 12724
+    },
+    {
+      "date": "2026-11-06",
+      "platform": "instagram",
+      "impressions": 2350,
+      "reach": 1598,
+      "engagement": 150,
+      "followers": 6488
+    },
+    {
+      "date": "2026-11-07",
+      "platform": "facebook",
+      "impressions": 3022,
+      "reach": 2176,
+      "engagement": 157,
+      "followers": 12735
+    },
+    {
+      "date": "2026-11-07",
+      "platform": "instagram",
+      "impressions": 2376,
+      "reach": 1616,
+      "engagement": 152,
+      "followers": 6495
+    },
+    {
+      "date": "2026-11-08",
+      "platform": "facebook",
+      "impressions": 3000,
+      "reach": 2160,
+      "engagement": 156,
+      "followers": 12746
+    },
+    {
+      "date": "2026-11-08",
+      "platform": "instagram",
+      "impressions": 2405,
+      "reach": 1636,
+      "engagement": 154,
+      "followers": 6502
+    },
+    {
+      "date": "2026-11-09",
+      "platform": "facebook",
+      "impressions": 2974,
+      "reach": 2141,
+      "engagement": 155,
+      "followers": 12757
+    },
+    {
+      "date": "2026-11-09",
+      "platform": "instagram",
+      "impressions": 2437,
+      "reach": 1657,
+      "engagement": 156,
+      "followers": 6509
+    },
+    {
+      "date": "2026-11-10",
+      "platform": "facebook",
+      "impressions": 2946,
+      "reach": 2121,
+      "engagement": 153,
+      "followers": 12768
+    },
+    {
+      "date": "2026-11-10",
+      "platform": "instagram",
+      "impressions": 2469,
+      "reach": 1679,
+      "engagement": 158,
+      "followers": 6516
+    },
+    {
+      "date": "2026-11-11",
+      "platform": "facebook",
+      "impressions": 2919,
+      "reach": 2102,
+      "engagement": 152,
+      "followers": 12779
+    },
+    {
+      "date": "2026-11-11",
+      "platform": "instagram",
+      "impressions": 2500,
+      "reach": 1700,
+      "engagement": 160,
+      "followers": 6523
+    },
+    {
+      "date": "2026-11-12",
+      "platform": "facebook",
+      "impressions": 2897,
+      "reach": 2086,
+      "engagement": 151,
+      "followers": 12790
+    },
+    {
+      "date": "2026-11-12",
+      "platform": "instagram",
+      "impressions": 2530,
+      "reach": 1720,
+      "engagement": 162,
+      "followers": 6530
+    }
+  ]
+}
