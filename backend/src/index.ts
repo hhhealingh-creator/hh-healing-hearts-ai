@@ -2,6 +2,7 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
+import { pool } from './db';
 
 const app = express();
 
@@ -26,7 +27,6 @@ app.get('/api/health', (req, res) => {
     });
 });
 
-import { pool } from './db.js';
 
 app.get('/api/database', async (req, res) => {
     try {
@@ -34,17 +34,22 @@ app.get('/api/database', async (req, res) => {
             'SELECT NOW() AS current_time'
         );
 
+        console.log('Supabase database connected!');
+
         res.json({
             success: true,
-            message: 'Supabase database connected!',
+            message: 'Supabase database connected successfully!',
             data: result.rows[0],
         });
-    } catch (error) {
-        console.error(error);
+
+    } catch (error: any) {
+        console.error('DATABASE CONNECTION ERROR:', error);
 
         res.status(500).json({
             success: false,
             message: 'Database connection failed',
+            error: error.message,
+            code: error.code,
         });
     }
 });
