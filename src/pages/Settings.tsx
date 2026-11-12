@@ -3,7 +3,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import {
     KeyRound, Lock, ShieldCheck, UserCog
 } from 'lucide-react';
-import { api, errorMessage } from '../api/client';
+
 import type { Settings } from '../api/types';
 import { usePermissions } from '../context/RoleContext';
 import { useToast } from '../context/ToastContext';
